@@ -1,0 +1,11 @@
+.welcome-item {
+  background-image: url("images/backgrounds/index-background.jpg");
+  background-size: 1200px 485px;
+}
+
+.subscribe-with-background {
+  height: 411px;
+  width: 1200px;
+    background-image: url("images/backgrounds/background.png");
+  background-size: 1200px 411px;
+}
