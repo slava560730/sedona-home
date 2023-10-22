@@ -3,8 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <title>HTML Academy: Sedona</title>
+  <link rel="stylesheet" href="./styles/styles.css">
 </head>
-<body>
+
   <header class="page-header">
     <a class="main-logo">
       <img class="page-header-logo" src="images/icon/logo.svg" width="139" height="70" alt="Логотип Sedona.">
@@ -41,9 +42,9 @@
               </ul>
         </nav>
       </header>
-
+<body>
     <main class="main-inner">
-      <header class="inner-header">
+      <section class="catalog-hotels">
         <h1 class="inner-header-title">Гостиницы Седоны</h1>
         <ul class="breadcrumbs">
           <li class="breadcrumbs-item">
@@ -55,8 +56,9 @@
             <a class="breadcrumbs-link">Гостиницы</a>
           </li>
         </ul>
-      </header>
-      <section class="catalog-hotels">
+
+
+
 <h2 class="visiolly-hidden">Список гостиниц с фильтрами</h2>
 <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
   <fieldset class="catalog-filter-group">
@@ -115,8 +117,8 @@
 
 </fieldset>
 
-      <button class="button submit" type="submit">Применить</button>
-      <button class="button reset" type="reset">Cбросить</button>
+      <button class="button-submit" type="submit">Применить</button>
+      <button class="button-reset" type="reset">Cбросить</button>
     </form>
       </section>
       <section class="catalog-cards">
@@ -144,7 +146,7 @@
             <span class="hotel-card-type">Гостиница</span>
       <span class="hotel-card-type">От 4000 ₽</span>
       <a href="#" class="product-card-link">Подробнее</a>
-        <button class="buttone-favourite">В Избранное</button>
+        <button class="button-favourite">В Избранное</button>
         <img src="images/icon/stars-4.svg" width="91" height="17" alt="4 звезды." class="rating-image">
         <span class="hotel-card-rating">Рейтинг:8,5</span>
         </li>
@@ -154,7 +156,7 @@
        <span class="hotel-card-type">Гостиница</span>
  <span class="hotel-card-type">От 3000 ₽</span>
  <a href="#" class="product-card-link">Подробнее</a>
-   <button class="buttone-favourite">В Избранное</button>
+   <button class="button-favourite">В Избранное</button>
    <img src="images/icon/stars-3.svg" width="68" height="17" alt="3 звезды." class="rating-image">
    <span class="hotel-card-rating">Рейтинг:8,9</span>
    </li>
@@ -164,7 +166,7 @@
  <span class="hotel-card-type">Гостиница</span>
 <span class="hotel-card-type">От 2000 ₽</span>
 <a href="#" class="product-card-link">Подробнее</a>
-<button class="buttone-favourite-current">В Избранном</button>
+<button class="button-favourite button-favourite-current">В Избранном</button>
 <img src="images/icon/stars-2.svg" width="43" height="17" alt="2 звезды." class="rating-image">
 <span class="hotel-card-rating">Рейтинг:9,2</span>
 </li><li class="hotel-card">
@@ -173,14 +175,14 @@
 <span class="hotel-card-type">Гостиница</span>
 <span class="hotel-card-type">От 3000 ₽</span>
 <a href="#" class="product-card-link">Подробнее</a>
-<button class="buttone-favourite">В Избранное</button>
+<button class="button-favourite">В Избранное</button>
 <img src="images/icon/stars-2.svg" width="43" height="17" alt="2 звезды." class="rating-image">
 <span class="hotel-card-rating">Рейтинг:9,2</span>
 </li>
     </ul>
 
 
-    <button class="button pagination-show-more" type="button">Загрузить ещё</button>
+    <button class="button-pagination-show-more" type="button">Загрузить ещё</button>
     <ul class="pagination">
        <li class="pagination-item">
         <a class="pagination-link pagination-current">1</a>
@@ -207,6 +209,7 @@
   <option value="8">8</option>
 </select>
 </section>
+</body>
 <footer class="footer">
   <section class="subscribe-without-background">
     <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
@@ -214,7 +217,7 @@
 <p class="subscribe-form-subtitle">Только полезная информация и никакого спама,<br>честное бойскаутское!</p>
 <label for="subscribe-email" class="visiolly-hidden">Введите почту</label>
 <input class="field" placeholder="Ваш e-mail" type="email" name="subscribe-email" id="subscribe-email" required>
-<button class="button subscribe-button" type="submit">Подписаться</button>
+<button class="button-subscribe-button" type="submit">Подписаться</button>
 </form>
 </section>
   <section class="footer-social">
