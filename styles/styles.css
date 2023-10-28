@@ -1,0 +1,241 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/ptsans-400") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("fonts/ptsans-700") format("woff2");
+  font-display: swap;
+}
+
+body {
+ font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color:black;
+  background-color: #FFFFFF;
+
+}
+
+.page-header {
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: bold;
+}
+
+.button {
+  font-size: 16px;
+  color: #FFFFFF;
+  background-color: #756257;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.counter {
+  font-size: 10px;
+  line-height: 13px;
+  font-weight: 400;
+  color: #FFFFFF;
+  background-color: #7DB54F;
+
+}
+
+
+.advantages-title {
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.advantages-description {
+  color: #FFFFFF;
+}
+
+.section-list-item-title {
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  text-transform: uppercase;
+}
+
+.hotel-search-button {
+  font-size: 20px;
+  line-height: 36px;
+  color: #FFFFFF;
+  background-color: #756257;
+  text-transform: uppercase;
+}
+.welcome-item {
+  background-image: url("images/backgrounds/index-background.jpg");
+  background-size: 1200px 485px;
+}
+
+
+
+.main-title {
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+.main-subtitle {
+  font-size: 22px;
+  line-height: 36px;
+}
+
+.hotel-search-title {
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.hotel-search-subtitle {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+
+
+.subscribe-form-title {
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+.subscribe-form-subtitle {
+  font-size: 22px;
+  line-height: 26px;
+  font-weight:normal;
+}
+
+.button-subscribe-button {
+  font-size: 20px;
+  line-height: 26px;
+  color:#FFFFFF;
+  text-transform: uppercase;
+}
+
+.footer-contacts-phone {
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 400;
+  color:inherit;
+}
+
+.catalog-hotels {
+  color:#FFFFFF;
+  line-height: auto;
+  background-color: #6094ca;
+  background-image: url("../images/backgrounds/catalog-background.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  width: 1200px;
+  height: 408px;
+  text-align:left;
+}
+.inner-header-title {
+  font-size: 60px;
+
+
+  }
+.breadcrumbs {
+  font-size: 16px;
+
+
+}
+
+.catalog-filter-title {
+  font-size: 20px;
+}
+
+.control-input {
+  font-size: 18px;
+}
+.catalog-cards {
+  line-height: auto;
+  text-align:left;
+}
+
+.hotels-result {
+  font-size: 30px;
+  text-transform: uppercase;
+
+}
+
+.button-submit {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.button-reset {
+  font-size: 18px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.hotel-card-title {
+  font-size: 24px;
+}
+
+
+.button-favourite {
+font-size: 16px;
+text-transform: uppercase;
+}
+
+.product-card-link {
+  font-size: 16px;
+  text-transform: uppercase;
+  }
+
+  .hotel-card-rating {
+    font-size: 16px;
+    font-weight: normal;
+    text-transform: uppercase;
+    }
+.button-pagination-show-more {
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.pagination-item {
+  font-size: 20px;
+}
+
+a {
+  text-decoration:none;
+}
+.subscribe-with-background {
+  height: 411px;
+  width: 1200px;
+  background-color: #6094ca;
+    background-image: url("../images/backgrounds/background.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  color:#FFFFFF;
+}
+
+.subscribe-without-background {
+  color: black;
+}
+.navigation-link {
+  text-align: left;
+  color: inherit;
+}
+
+.main-index-img {
+  background-color: #6094ca;
+  background-image: url("../images/backgrounds/index-background.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  width: 1200px;
+  height: 485px;
+}
