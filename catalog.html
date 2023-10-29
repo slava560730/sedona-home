@@ -49,7 +49,7 @@
         <section class="catalog-hotels">
 
         <h1 class="inner-header-title">Гостиницы Седоны</h1>
-        <div class="catalog-hotels-container">
+
         <ul class="breadcrumbs">
           <li class="breadcrumbs-item">
             <a class="breadcrumbs-link" href="index.html">
@@ -60,8 +60,8 @@
             <a class="breadcrumbs-link">Гостиницы</a>
           </li>
         </ul>
-      </div>
-<div class="catalog-filter">
+
+
 <h2 class="visiolly-hidden" hidden>Список гостиниц с фильтрами</h2>
 <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
   <fieldset class="catalog-filter-group">
@@ -119,18 +119,22 @@
 <input class="catalog-filter-item2" type="number" name="max value" value="9000"  id="type-number-max">
 
 </fieldset>
-
+<div class="button-submit-container">
       <button class="button-submit" type="submit">Применить</button>
       <button class="button-reset" type="reset">Cбросить</button>
+    </div>
     </form>
-  </div>
+
       </section>
       <section class="catalog-cards">
+        <div class="hotels-result-container">
           <h2 class="hotels-result">Найдено гостиниц: 38</h2>
+          <div class="wrapper-sort">
           <select class="visiolly-hidden" aria-label="Сортировка.">
           <option value="cheap" aria-checked="cheap">Сначала дешёвое</option>
       <option value="expensive">Сначала дорогое</option>
     </select>
+  </div>
     <div class="listing-view-switcher">
     <a href="#" class="listing-view-switcher-list-current">
       <img class="listing-view-switcher-item" src="images/icon/switcher-card.svg" width="16" height="14" alt="Показать карточки.">
@@ -142,6 +146,7 @@
       <img class="listing-view-switcher-item" src="images/icon/switcher-list.svg" width="16" height="14" alt="Показать список.">
     </a>
     </div>
+  </div>
     <ul class="hotel-list">
       <li class="hotel-card">
         <a href="#" class="product-card-link">
@@ -185,9 +190,11 @@
 </li>
     </ul>
 
-
+<div class="button-show-more">
     <button class="button-pagination-show-more" type="button">Загрузить ещё</button>
-    <ul class="pagination">
+  </div>
+  <div class="pagination-container">
+     <ul class="pagination">
        <li class="pagination-item">
         <a class="pagination-link pagination-current">1</a>
       </li>
@@ -207,11 +214,14 @@
         <a class="pagination-link" href="#">10</a>
       </li>
     </ul>
-    <label for="number-card" class="control-input">Показать число гостиниц на странице:</label>
+    <div class="number-card-container">
+    <label for="number-card" class="control-input">Гостиниц на странице:</label>
     <select class="number-card" id="number-card">
       <option value="4" aria-checked="4">4</option>
   <option value="8">8</option>
 </select>
+</div>
+</div>
 </section>
 </div>
 </main>
