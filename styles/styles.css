@@ -53,8 +53,8 @@ flex-direction: row;
 justify-content: start;
 width: 1056px;
 list-style: none;
-margin: 0 72px;
-padding: 0;
+margin: 0 72px 34px 72px;
+padding: 20px 0;
 row-gap: 10px;
 column-gap: 18px;;
 }
@@ -77,12 +77,15 @@ margin: 0 auto;
   font-weight: bold;
 }
 
-.button {
+.button  {
   font-size: 16px;
   color: #FFFFFF;
   background-color: #756257;
   line-height: 20px;
   text-transform: uppercase;
+  padding: 9px 15px;
+  display: block;
+margin: 20px 0;
 }
 
 .counter {
@@ -231,7 +234,7 @@ margin-bottom: 20px;
 
 
 .main-inner {
-  padding: 0 72px;
+  padding: 0;
   align-items: center;
   justify-content: space-between;
 }
@@ -267,6 +270,12 @@ margin-bottom: 20px;
   font-size: 22px;
   line-height: 26px;
   margin-bottom: 56px;
+}
+
+.hotel-card-container {
+  display: flex;
+  flex-direction: column;
+  weight: 340px;
 }
 
 
@@ -419,9 +428,8 @@ gap: 1em;
 .hotels-result-container {
   display: flex;
   margin: 0 auto 53px auto;
-
   justify-content: space-between;
-  width: 1057px;
+  padding: 0 70px;
 }
 
 .listing-view-switcher {
@@ -430,6 +438,16 @@ gap: 1em;
   padding: 0;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 
 
 .button-submit-container {
@@ -526,34 +544,56 @@ text-transform: uppercase;
 .button-show-more {
   font-size: 20px;
   text-align: center;
-  text-transform: uppercase;
-  width: 620px;
-  margin: 0 auto;
 
+  margin: 0 auto 30px auto;
+  border-top: 1px solid grey ;
+  border-bottom: 1px solid grey ;
+  padding: 30px 0;
 }
 
 .button-pagination-show-more {
   width: 620px;
   background-color: #83B3D3;
+  padding: 17px 0;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  border:none;
 }
 
 .pagination-container {
   display: flex;
-flex-direction: row;
+justify-content: space-between;
 margin: 0 72px;
 }
 
 .pagination {
 display: flex;
-flex-direction: row;
+margin: 0;
+padding: 0;
 list-style: none;
 justify-content: space-between;
 width: 371px;
-margin-right: 300px;
-background-color: #83B3D3;
+
+gap: 8px;
+}
+
+.pagination-link {
+  background-color: #83B3D3;
+  display: inline-block;
+  min-width: 55px;
+  line-height: 55px;
+text-align: center;
+vertical-align: middle;
+color: #FFFFFF;
 
 }
 
+
+.pagination-current
+{
+  background-color: #F2F2F2;
+  color: black;
+}
 .number-card-container {
   width: 386px;
 }
@@ -581,33 +621,45 @@ a {
 .navigation-link {
   text-align: left;
   color: inherit;
+   text-align: center;
+   display: block;
+   padding: 20px 17px;
+margin: 0;
+
 }
 
 .navigation {
 display: flex;
-padding: 0 70px;
+
 margin: 0 auto;
 justify-content: space-around;
 }
 
 .navigation-list {
   margin: 0;
-  padding: 0;
-  width: 345px;
+
+  min-width: 345px;
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
+  align-self: center;
+
 
 }
 
 .navigation-user {
-  max-width: 280px;
+  min-width: 280px;
   margin-left: auto;
+  min-height: 66px;
+
+
+
 }
 
 .main-logo {
   width: 139px;
-
+padding: 0 30px 0 70px;
 }
 
 .main-index-img {
