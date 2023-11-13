@@ -45,7 +45,7 @@ body {
   margin: 0 auto;
 }
 
-.hotel-list {
+/*.hotel-list {
 display: flex;
 
 flex-wrap: wrap;
@@ -57,12 +57,89 @@ margin: 0 72px 34px 72px;
 padding: 20px 0;
 row-gap: 10px;
 column-gap: 18px;;
+}*/
+
+.hotel-list {
+  display: grid;
+  list-style: none;
+margin: 0 72px 34px 72px;
+padding: 20px 0;
+grid-template-columns: 340px 340px 340px;
+grid-template-rows: 438px 438px;
+row-gap: 10px;
+column-gap: 18px;
 }
 
 .hotel-card {
-  width: 340px;
+  width: 300px;
+  height: 398px;
+display: grid;
+grid-template-rows: 200px min-content min-content 37px 37px;
+grid-template-columns: 133px 133px;
+row-gap: 16px;
+column-gap: 26px;
+margin: 20px;
 
 }
+
+
+
+.hotel-card-img-link {
+grid-column: 1/-1;
+grid-row: 1/2;
+background-color: #f6f6f6;
+  }
+
+ .hotel-card-title-link {
+ grid-column: 1/-1;
+  grid-row: 2/3;
+ }
+
+
+.hotel-card-type,
+.product-card-link,
+.rating-image {
+  grid-column: 1/2;
+
+}
+
+.product-card-link {
+  grid-row: 4/5;
+}
+
+.rating-image {
+   grid-row: 5/6;
+}
+.hotel-card-type {
+  grid-row: 3/4;
+}
+
+.hotel-card-type-price,
+.button-favourite,
+.hotel-card-rating {
+  grid-column: 2/3;
+}
+
+
+.product-card-link {
+  font-size: 16px;
+  text-transform: uppercase;
+  background-color: #756257;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+
+  .hotel-card-rating {
+    font-size: 16px;
+    font-weight: normal;
+    text-transform: uppercase;
+    background-color: #83B3D3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
 
 .main-index-img-logo {
   display: block;
@@ -461,7 +538,7 @@ gap: 1em;
 
 .wrapper-sort {
   width: 287px;
-margin: 0 81px 0 0;
+margin: 0 81px 0 auto;
 }
 
 
@@ -489,9 +566,9 @@ margin: 0 0 5px 0;
 }
 
 .catalog-cards {
-  line-height: auto;
+
   text-align:left;
-width: 1200px
+width: 1200px;
 margin: 0;
 padding: 0;
 }
@@ -502,7 +579,7 @@ padding: 0;
   width: 337px;
   padding: 0;
   white-space: nowrap;
-  margin: 0 191px 56px 0;
+  margin: 0;
 
 }
 
@@ -521,25 +598,20 @@ padding: 0;
 
 .hotel-card-title {
   font-size: 24px;
+margin: 0;
 }
+
 
 
 .button-favourite {
 font-size: 16px;
 text-transform: uppercase;
+display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.product-card-link {
-  font-size: 16px;
-  text-transform: uppercase;
-  }
 
-  .hotel-card-rating {
-    font-size: 16px;
-    font-weight: normal;
-    text-transform: uppercase;
-    background-color: #83B3D3;
-    }
 
 .button-show-more {
   font-size: 20px;
