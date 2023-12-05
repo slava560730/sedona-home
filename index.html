@@ -282,7 +282,7 @@
 
         <label class="exit-form" for="booking-exit">Дата выезда:</label>
         <div class="auth-form-field auth-form-field-2">
-        <input class="auth-form" type="password" id="booking-exit book" name="booking-exit" placeholder="1 сентября 2021">
+        <input class="auth-form" type="text" id="booking-exit book" name="booking-exit" placeholder="1 сентября 2021">
         <svg class="calendar" for="book" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
           <g opacity="0.3" clip-path="url(#clip0_18711_327)">
             <path d="M5.5 10C5.8 10 6 9.8 6 9.5C6 9.2 5.8 9 5.5 9C5.2 9 5 9.2 5 9.5C5 9.8 5.2 10 5.5 10Z" fill="black"/>
@@ -340,18 +340,28 @@
       </div>
       <div class="number-group">
         <label class="child-label">Дети:</label>
-        <span class="note">
-          <svg xmlns="http://www.w3.org/2000/svg" width="1" height="9" viewBox="0 0 1 9" fill="none">
-            <g clip-path="url(#clip0_18711_289)">
-              <path d="M0 9H1L1 3H0L0 9Z" fill="white"/>
-              <path d="M1 0H0V1H1V0Z" fill="white"/>
-            </g>
-            <defs>
-              <clipPath id="clip0_18711_289">
-                <rect width="1" height="9" fill="white"/>
-              </clipPath>
-            </defs>
-          </svg>
+        <span class="form-label form-label-icon">
+          <label class="visually-hidden" for="appointment-date">Указать количество детей</label>
+          <span class="tooltip">
+            <button class="tooltip-toggle" type="button" aria-labelledby="tooltip-label">
+            <svg xmlns="http://www.w3.org/2000/svg" width="1" height="9" viewBox="0 0 1 9" fill="none">
+              <g clip-path="url(#clip0_18711_289)">
+                <path d="M0 9H1L1 3H0L0 9Z" fill="white"/>
+                <path d="M1 0H0V1H1V0Z" fill="white"/>
+              </g>
+              <defs>
+                <clipPath id="clip0_18711_289">
+                  <rect width="1" height="9" fill="white"/>
+                </clipPath>
+              </defs>
+            </svg>
+            </button>
+            <span class="tooltips-wrapper">
+            <span class="tooltips-text" role="tooltip" id="tooltip-label">
+              Укажите количество детей, которые будут с вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.
+               </span>
+          </span>
+          </span>
         </span>
         <div class="wrapper-child">
         <button class="change-minus-button" type="button">
